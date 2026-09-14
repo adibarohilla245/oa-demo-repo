@@ -11,12 +11,29 @@ def add(a: float, b: float) -> float:
     """
     return a + b
 
-def average(numbers):
-    if not numbers:
-        raise ValueError('The list cannot be empty')
-    return sum(numbers) / len(numbers)
+def factorial(n: int) -> int:
+    """
+    Calculate the factorial of a non-negative integer n.
+    Raises ValueError if n is negative.
+    """
+    if n < 0:
+        raise ValueError("n must be a non-negative integer")
+    result = 1
+    for i in range(1, n + 1):
+        result *= i
+    return result
 
-def modulo(a, b):
+def modulo(a: float, b: float) -> float:
+    """
+    Returns the remainder of the division of the first number by the second.
+    
+    Parameters:
+    a (float): The numerator.
+    b (float): The denominator.
+    
+    Returns:
+    float: The result of a % b.
+    """
     return a % b
 
 def subtract(a: float, b: float) -> float:
@@ -32,7 +49,6 @@ def subtract(a: float, b: float) -> float:
     """
     return a - b
 
-
 def multiply(a: float, b: float) -> float:
     """
     Multiplies two numbers and returns the result.
@@ -45,7 +61,6 @@ def multiply(a: float, b: float) -> float:
     float: The product of a and b.
     """
     return a * b
-
 
 def divide(a: float, b: float) -> float:
     """
@@ -62,21 +77,6 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
-
-
-def modulo(a: float, b: float) -> float:
-    """
-    Returns the remainder of the division of the first number by the second.
-    
-    Parameters:
-    a (float): The numerator.
-    b (float): The denominator.
-    
-    Returns:
-    float: The result of a % b.
-    """
-    return a % b
-
 
 def power(base: float, exponent: float) -> float:
     """

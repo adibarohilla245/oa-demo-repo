@@ -55,3 +55,31 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+
+def modulo(a: float, b: float) -> float:
+    """
+    Returns the remainder of the division of the first number by the second.
+    
+    Parameters:
+    a (float): The numerator.
+    b (float): The denominator.
+    
+    Returns:
+    float: The result of a % b.
+    """
+    return a % b
+
+
+def power(base: float, exponent: float) -> float:
+    """
+    Raises the base to the power of the exponent and returns the result.
+    
+    Parameters:
+    base (float): The base number.
+    exponent (float): The exponent number.
+    
+    Returns:
+    float: The result of base raised to the given exponent.
+    """
+    return base ** exponent

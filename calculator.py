@@ -13,3 +13,14 @@ def fibonacci(n):
         for _ in range(2, n + 1):
             a, b = b, a + b
         return b
+
+def power(base, exponent):
+    return base ** exponent
+
+def divide(a, b):
+    if b == 0:
+        raise ValueError('Cannot divide by zero')
+    return a / b
+
+def multiply(a, b):
+    return a * b

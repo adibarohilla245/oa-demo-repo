@@ -1,11 +1,11 @@
 def add(a: float, b: float) -> float:
     """
-    Adds two numbers and returns the result.
-    
+    Adds two numbers together and returns the result.
+
     Parameters:
     a (float): The first number.
     b (float): The second number.
-    
+
     Returns:
     float: The sum of a and b.
     """
@@ -27,6 +27,18 @@ def is_prime(n: int) -> bool:
         if n % i == 0:
             return False
     return True
+
+def is_even(n: int) -> bool:
+    """
+    Determines if the provided number is even.
+    
+    Parameters:
+    n (int): The number to check.
+    
+    Returns:
+    bool: True if n is even, False otherwise.
+    """
+    return n % 2 == 0
 
 def subtract(a: float, b: float) -> float:
     """

@@ -14,6 +14,33 @@ def add(a: float, b: float) -> float:
 def is_even(n: int) -> bool:
     return n % 2 == 0
 
+def square(n: float) -> float:
+    """
+    Returns the square of the number.
+    
+    Parameters:
+    n (float): The number to be squared.
+    
+    Returns:
+    float: The square of n.
+    """
+    return n * n
+
+
+def power(base: float, exponent: float) -> float:
+    """
+    Raises the base to the power of the exponent and returns the result.
+    
+    Parameters:
+    base (float): The base number.
+    exponent (float): The exponent number.
+    
+    Returns:
+    float: The result of base raised to the given exponent.
+    """
+    return base ** exponent
+
+
 def subtract(a: float, b: float) -> float:
     """
     Subtracts the second number from the first and returns the result.
@@ -68,16 +95,3 @@ def modulo(a: float, b: float) -> float:
     float: The result of a % b.
     """
     return a % b
-
-def power(base: float, exponent: float) -> float:
-    """
-    Raises the base to the power of the exponent and returns the result.
-    
-    Parameters:
-    base (float): The base number.
-    exponent (float): The exponent number.
-    
-    Returns:
-    float: The result of base raised to the given exponent.
-    """
-    return base ** exponent

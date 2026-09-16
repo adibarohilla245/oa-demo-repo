@@ -1,9 +1,6 @@
-.styled-button {
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 12px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+.footer {
+    font-size: small;
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
 }

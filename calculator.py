@@ -1,16 +1,18 @@
 def add(a: float, b: float) -> float:
     """
-    Adds two numbers and returns the result.
-    
+    Adds two numbers together and returns the result.
+
     Parameters:
     a (float): The first number.
     b (float): The second number.
-    
+
     Returns:
     float: The sum of a and b.
     """
     return a + b
 
+def is_even(n: int) -> bool:
+    return n % 2 == 0
 
 def square(n: float) -> float:
     """
@@ -52,7 +54,6 @@ def subtract(a: float, b: float) -> float:
     """
     return a - b
 
-
 def multiply(a: float, b: float) -> float:
     """
     Multiplies two numbers and returns the result.
@@ -65,7 +66,6 @@ def multiply(a: float, b: float) -> float:
     float: The product of a and b.
     """
     return a * b
-
 
 def divide(a: float, b: float) -> float:
     """
@@ -82,7 +82,6 @@ def divide(a: float, b: float) -> float:
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
-
 
 def modulo(a: float, b: float) -> float:
     """

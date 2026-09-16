@@ -90,3 +90,15 @@ def power(base: float, exponent: float) -> float:
     float: The result of base raised to the given exponent.
     """
     return base ** exponent
+
+def is_palindrome(s: str) -> bool:
+    """
+    Checks if the given string reads the same backward as forward.
+    
+    Parameters:
+    s (str): The string to check.
+    
+    Returns:
+    bool: True if s is a palindrome, False otherwise.
+    """
+    return s == s[::-1]

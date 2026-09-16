@@ -1,11 +1,11 @@
 def add(a: float, b: float) -> float:
     """
-    Adds two numbers and returns the result.
-    
+    Adds two numbers together and returns the result.
+
     Parameters:
     a (float): The first number.
     b (float): The second number.
-    
+
     Returns:
     float: The sum of a and b.
     """

@@ -1,11 +1,11 @@
 def add(a: float, b: float) -> float:
     """
-    Adds two numbers and returns the result.
-    
+    Adds two numbers together and returns the result.
+
     Parameters:
     a (float): The first number.
     b (float): The second number.
-    
+
     Returns:
     float: The sum of a and b.
     """
@@ -35,6 +35,9 @@ def power(base: float, exponent: float) -> float:
     float: The result of base raised to the given exponent.
     """
     return base ** exponent
+
+def is_even(n: int) -> bool:
+    return n % 2 == 0
 
 def subtract(a: float, b: float) -> float:
     """

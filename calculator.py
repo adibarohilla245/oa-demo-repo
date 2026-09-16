@@ -11,6 +11,31 @@ def add(a: float, b: float) -> float:
     """
     return a + b
 
+def cube(n: float) -> float:
+    """
+    Raises a number to the power of three and returns the result.
+    
+    Parameters:
+    n (float): The number to be cubed.
+    
+    Returns:
+    float: The result of n raised to the power of three.
+    """
+    return n ** 3
+
+def power(base: float, exponent: float) -> float:
+    """
+    Raises the base to the power of the exponent and returns the result.
+    
+    Parameters:
+    base (float): The base number.
+    exponent (float): The exponent number.
+    
+    Returns:
+    float: The result of base raised to the given exponent.
+    """
+    return base ** exponent
+
 def is_even(n: int) -> bool:
     return n % 2 == 0
 

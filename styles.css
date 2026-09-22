@@ -12,6 +12,32 @@ header {
     text-align: center;
 }
 
+nav {
+    background: #2c3e50;
+}
+
+.nav-bar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
 }

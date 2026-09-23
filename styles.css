@@ -4,9 +4,9 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     --background-color: #f4f4f4;
     --text-color: #000;
+    --yellow-color: #ffeb3b; /* New yellow color variable */
 }
 
 body.dark-mode {
